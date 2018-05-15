@@ -1,0 +1,35 @@
+SHELL = /bin/sh
+.SUFFIXES: .o .f .F .c .f90 .F90
+
+
+IFCLIB =  #-L/opt/intel/compiler8.1/lib
+#FOPT90  = -w90 -cm -O3 -fpp
+#FOPT90  = -w90 -cm -O3 -r8 -fpp
+#  debug
+FOPT90  =  -fpp  -g -C -inline_debug_info
+
+F90 = ifc $(FOPT90) 
+CC = g++
+F77 = f77
+CFLAGS  = -ggdb
+#LIBS    = -L/usr/local/lib -L/home/tdanino/fftw/lib -lrfftw -lfftw -lm
+#INCL	= -I/usr/local/include -I/home/tdanino/fftw/include -I/home/tdanino/incl -I" "
+INCL    = -I/n/homeserver2/user2a/tinglu/codes/fftw-2.1.5/rfftw  -I/n/homeserver2/user2a/tinglu/codes/fftw-2.1.5/fftw -I/n/homeserver2/eehome2a/tinglu/codes/fftw-2.1.5/rfftw -I/n/homeserver2/eehome2a/tinglu/codes/fftw-2.1.5/fftw
+
+
+LIBS    = -L/usr/local/lib -L/n/homeserver2/user2a/tinglu/codes/fftw-2.1.5/rfftw/.libs/ -L/n/homeserver2/user2a/tinglu/codes/fftw-2.1.5/fftw/.libs/ -L/n/homeserver2/eehome2a/tinglu/codes/fftw-2.1.5/rfftw/.libs/ -L/n/homeserver2/eehome2a/tinglu/codes/fftw-2.1.5/fftw/.libs/ -lrfftw -lfftw -lm
+
+OBJS    =  main.o
+test.exe: 	$(OBJS)	
+	$(CC) -o main.exe $(CFLAGS) $(OBJS) $(LIBS)
+.c.o:
+	$(CC) $(INCL) $(CFLAGS) -c $<
+.f.o:
+	$(F77) -c $<
+.f90.o:
+	$(F90) -c $< 
+.F90.o:
+	$(F90) -c $< 
+clean:
+	rm *.exe *.o
+

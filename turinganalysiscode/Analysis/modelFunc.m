@@ -1,0 +1,81 @@
+function F = modelFunc(g1)
+
+the1=1;
+the2=2;
+the3=1;
+the4=4;
+the5=2;
+the6=1;
+
+GAMX=1.0;
+gu =GAMX*1.0;
+gv =GAMX*1.0;
+gc =GAMX*1.0;
+giu=GAMX*1.0;
+giv=GAMX*1.0;
+
+au =GAMX*3e1;
+av =GAMX*3e1;
+aiu=GAMX*1e0;
+%aiu=GAMX*1e1;
+aiv=GAMX*0.3e0;
+ac =GAMX*1.0e1;
+
+
+lam_u=1.0;
+lam_v=1e3;
+
+fod_1 =1e3;
+fod_2 =1e5;
+fod_3 =1e3;
+fod_4 =1e3;
+fod_5 =1e5;
+fod_6 =1e5;
+
+Kd_1 = 1e3;
+Kd_2 = 1e1;
+Kd_3 = 1e5;
+
+Kd_5 = 1e3;
+
+Kc_3 = 1.5e2;
+
+
+
+Kd_4 = 1e2;
+Kd_6 = 1e-3;
+
+
+Lac  = 1.5e2;
+IPTG = 1e-6;
+
+D=.5;
+D2=D*21.6;
+%D2=9;
+
+U  = g1(1);
+V  = g1(2);
+Iu = g1(3);
+Iv = g1(4);
+C  = g1(5);
+
+
+%prefactors
+Ru = lam_u * Iu ;
+Rv = lam_v * ( 1+1/fod_5*((C/Kd_5)^the5) )/( 1+((C/Kd_5)^the5) ) ; %Model 804
+
+Leff= Lac*( 1+1/fod_6*((IPTG/Kd_6)^the6) )/( 1+((IPTG/Kd_6)^the6) ); %effective Lac
+
+X1 = Ru*U ;			
+X2 = Rv*V/( 1+U/Kc_3 ) ;
+
+HFun_uv = ( 1+fod_1*((X1/Kd_1)^the1) )/( 1+((X1/Kd_1)^the1) )*( 1+1.0/fod_2*((C/Kd_2)^the2) )/( 1+((C/Kd_2)^the2) );
+
+HFun_c  = ( 1+fod_3*((X2/Kd_3)^the3) )/( 1+((X2/Kd_3)^the3) )*( 1+1.0/fod_4*((Leff/Kd_4)^the4) )/( 1+((Leff/Kd_4)^the4) );
+
+F=[(au*Iu-gu*U);
+(av*Iv-gv*V);
+(aiu*HFun_uv-giu*Iu);
+(aiv*HFun_uv-giv*Iv);
+(ac*HFun_c-gc*C)];
+end

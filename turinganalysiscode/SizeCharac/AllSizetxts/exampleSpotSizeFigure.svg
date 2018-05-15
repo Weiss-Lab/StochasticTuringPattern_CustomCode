@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#231F20;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:11px;}
+	.st5{fill:#010101;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:none;stroke:#000000;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{font-size:6px;}
+	.st9{fill:#6ABD45;stroke:#6ABD45;stroke-miterlimit:10;}
+	.st10{fill:#ED2224;stroke:#ED2224;stroke-miterlimit:10;}
+	.st11{clip-path:url(#SVGID_4_);fill:none;stroke:#010101;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#69BD45;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#6ABD45;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#EC2227;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{font-size:12px;}
+</style>
+<g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="221" y="312.4" width="173.4" height="141.2"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+		<polyline class="st0" points="220.8,452.9 220.8,312.6 393.2,312.6 393.2,452.9 220.8,452.9 		"/>
+		<path class="st1" d="M220.8,312.6h172.4 M220.8,453.9h172.4 M393.2,452.9V312.6 M220.8,452.9V312.6 M224.1,452.9v-1.7
+			 M224.1,312.6v1.7"/>
+		<path class="st1" d="M257.3,452.9v-1.7 M257.3,312.6v1.7"/>
+		<path class="st1" d="M290.5,452.9v-1.7 M290.5,312.6v1.7"/>
+		<path class="st1" d="M323.6,452.9v-1.7 M323.6,312.6v1.7"/>
+		<path class="st1" d="M356.7,452.9v-1.7 M356.7,312.6v1.7"/>
+		<path class="st1" d="M389.9,452.9v-1.7 M389.9,312.6v1.7"/>
+		<path class="st1" d="M393.2,452.9h-1.7"/>
+		<path class="st1" d="M220.8,427.4h1.7 M393.2,427.4h-1.7"/>
+		<path class="st1" d="M220.8,401.9h1.7 M393.2,401.9h-1.7"/>
+		<path class="st1" d="M220.8,376.4h1.7 M393.2,376.4h-1.7"/>
+		<path class="st1" d="M220.8,350.8h1.7 M393.2,350.8h-1.7"/>
+		<path class="st1" d="M220.8,325.3h1.7 M393.2,325.3h-1.7"/>
+		<path class="st1" d="M220.8,312.6h1.7 M393.2,312.6h-1.7"/>
+		<text transform="matrix(1 0 0 1 248.0352 465.1651)" class="st2 st3 st4">−6</text>
+		<text transform="matrix(1 0 0 1 281.2256 465.1651)" class="st2 st3 st4">−5</text>
+		<text transform="matrix(1 0 0 1 314.3662 465.1651)" class="st2 st3 st4">−4</text>
+		<text transform="matrix(1 0 0 1 347.5567 465.1651)" class="st2 st3 st4">−3</text>
+		<text transform="matrix(1 0 0 1 380.7461 465.1651)" class="st2 st3 st4">−2</text>
+		<text transform="matrix(1 0 0 1 274.2051 476.0303)" class="st5 st3 st4">log  IPTG (M)</text>
+		<g>
+			<g>
+				<polyline class="st6" points="237.9,315.6 241.5,309.2 244.4,309.8 240.8,316.2 				"/>
+			</g>
+			<g>
+				<line class="st7" x1="244.4" y1="309.8" x2="240.8" y2="316.2"/>
+				<line class="st7" x1="241.5" y1="309.2" x2="237.9" y2="315.6"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polyline class="st6" points="237.9,456.9 241.5,450.5 244.4,451.1 240.8,457.5 				"/>
+			</g>
+			<g>
+				<line class="st7" x1="244.4" y1="451.1" x2="240.8" y2="457.5"/>
+				<line class="st7" x1="241.5" y1="450.5" x2="237.9" y2="456.9"/>
+			</g>
+		</g>
+		<text transform="matrix(1 0 0 1 288.1665 479.1436)" class="st5 st3 st8">10</text>
+		<path class="st9" d="M221.2,415.2h5.1v5.1h-5.1V415.2L221.2,415.2z M254.5,417.8h5.1v5.1h-5.1V417.8L254.5,417.8z M271.1,416.1
+			h5.1v5.1h-5.1V416.1L271.1,416.1z M287.8,414.2h5.1v5.1h-5.1V414.2L287.8,414.2z M304.5,413.8h5.1v5.1h-5.1V413.8L304.5,413.8z
+			 M321.1,397.8h5.1v5.1h-5.1V397.8L321.1,397.8z M337.7,372.9h5.1v5.1h-5.1V372.9L337.7,372.9z M354.3,333.8h5.1v5.1h-5.1V333.8
+			L354.3,333.8z M371,323.9h5.1v5.1H371V323.9L371,323.9z M387.7,335.4h5.1v5.1h-5.1V335.4L387.7,335.4z"/>
+		<path class="st10" d="M221.2,323.9h5.1v5.1h-5.1V323.9L221.2,323.9z M254.5,327.3h5.1v5.1h-5.1V327.3L254.5,327.3z M271.1,329h5.1
+			v5.1h-5.1V329L271.1,329z M287.8,327.7h5.1v5.1h-5.1V327.7L287.8,327.7z M304.5,336.2h5.1v5.1h-5.1V336.2L304.5,336.2z
+			 M321.1,355.5h5.1v5.1h-5.1V355.5L321.1,355.5z M337.7,389.2h5.1v5.1h-5.1V389.2L337.7,389.2z M354.3,405.9h5.1v5.1h-5.1V405.9
+			L354.3,405.9z M371,408.6h5.1v5.1H371V408.6L371,408.6z M387.7,407.6h5.1v5.1h-5.1V407.6L387.7,407.6z"/>
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="222.1" y="313.9" width="169.9" height="139.3"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<polyline class="st11" points="222.1,418.9 223.8,418.9 227.1,418.9 230.4,418.9 233.8,418.9 237.1,418.9 240.4,418.9 
+				243.7,418.9 247.1,418.9 250.4,418.9 253.7,418.9 257.1,418.9 260.4,418.8 263.7,418.8 267,418.8 270.4,418.8 273.7,418.8 
+				277,418.8 280.4,418.7 283.7,418.6 287,418.5 290.3,418.4 293.7,418.1 297,417.9 300.3,417.4 303.7,416.7 307,415.8 310.3,414.5 
+				313.6,412.7 317,410.1 320.3,406.8 323.7,402.4 327,396.9 330.3,390.2 333.6,382.7 336.9,374.6 340.3,366.5 343.6,359 347,352.3 
+				350.3,346.8 353.6,342.4 356.9,339 360.3,336.5 363.6,334.7 366.9,333.4 370.3,332.5 373.6,331.8 376.9,331.4 380.2,331 
+				383.6,330.8 386.9,330.7 390.2,330.5 392,330.5 			"/>
+			<polyline class="st11" points="222.1,329 223.8,329 227.1,329 230.4,329 233.8,329 237.1,329 240.4,329 243.7,329 247.1,329 
+				250.4,329.1 253.7,329.1 257.1,329.1 260.4,329.1 263.7,329.1 267,329.2 270.4,329.2 273.7,329.3 277,329.4 280.4,329.6 
+				283.7,329.8 287,330.1 290.3,330.5 293.7,331.1 297,332 300.3,333.2 303.7,334.8 307,336.9 310.3,339.7 313.6,343.4 317,347.9 
+				320.3,353.4 323.7,359.8 327,366.6 330.3,373.7 333.6,380.6 336.9,386.9 340.3,392.4 343.6,397 347,400.6 350.3,403.4 
+				353.6,405.5 356.9,407.1 360.3,408.3 363.6,409.2 366.9,409.8 370.3,410.2 373.6,410.5 376.9,410.7 380.2,410.9 383.6,411 
+				386.9,411.1 390.2,411.1 392,411.2 			"/>
+		</g>
+		<g>
+			<g>
+				<polyline class="st6" points="237.7,421.2 241.4,414.9 244.3,415.5 240.6,421.8 				"/>
+			</g>
+			<g>
+				<line class="st12" x1="244.3" y1="415.5" x2="240.6" y2="421.8"/>
+				<line class="st13" x1="241.4" y1="414.9" x2="237.7" y2="421.2"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polyline class="st6" points="237.7,331.2 241.4,324.8 244.3,325.4 240.6,331.8 				"/>
+			</g>
+			<g>
+				<line class="st14" x1="244.3" y1="325.4" x2="240.6" y2="331.8"/>
+				<line class="st14" x1="241.4" y1="324.8" x2="237.7" y2="331.2"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 202.0928 431.7926)" class="st2 st3 st4">0.2</text>
+	<text transform="matrix(1 0 0 1 202.0928 406.2696)" class="st2 st3 st4">0.4</text>
+	<text transform="matrix(1 0 0 1 202.0928 380.7442)" class="st2 st3 st4">0.6</text>
+	<text transform="matrix(1 0 0 1 202.0928 355.2208)" class="st2 st3 st4">0.8</text>
+	<text transform="matrix(1 0 0 1 202.0928 329.6993)" class="st2 st3 st4">1.0</text>
+	<text transform="matrix(1 0 0 1 211.2666 456.9351)" class="st2 st3 st4">0</text>
+	<text transform="matrix(0 -1 1 0 198.793 453.3585)" class="st5 st3 st15">Spa-averaged GFP(a.u.)</text>
+	<text transform="matrix(0 1 -1 0 414.1025 323.3945)" class="st5 st3 st15">Total red spot area(a.u.)</text>
+</g>
+<text transform="matrix(1 0 0 1 395.3282 431.7926)" class="st2 st3 st4">0.2</text>
+<text transform="matrix(1 0 0 1 395.3282 406.2696)" class="st2 st3 st4">0.4</text>
+<text transform="matrix(1 0 0 1 395.3282 380.7442)" class="st2 st3 st4">0.6</text>
+<text transform="matrix(1 0 0 1 395.3282 355.2208)" class="st2 st3 st4">0.8</text>
+<text transform="matrix(1 0 0 1 395.3282 329.6993)" class="st2 st3 st4">1.0</text>
+<text transform="matrix(1 0 0 1 399.9151 456.9351)" class="st2 st3 st4">0</text>
+<text transform="matrix(1 0 0 1 220.8111 465.1656)" class="st2 st3 st4">0</text>
+</svg>

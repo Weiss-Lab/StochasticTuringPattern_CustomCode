@@ -1,0 +1,14 @@
+t=1000000	, seed=1163307032
+totaltime=2000, dt=0.002, outputstep=199999
+Nx=64, Ny=64, dx=0.05, dy=0.05
+Us=1, Vs=1, Ius=1, Ivs=1, Cs=1, Ns=1
+GAMX=1
+gam_u=1, gam_v=1, gam_iu=1, gam_iv=1, gam_c=1
+afa_u=30, afa_v=30, afa_iu=1, afa_iv=0.3, afa_c=1, afa_n=0
+dif_u=0.5, dif_v=50, dif_iu=0, dif_iv=0, dif_c=0, dif_n=0
+the1=1, the1=2, the3=1, the4=4, the5=2, the6=1
+Kd_1=10, Kd_2=10, Kd_3=10000, Kd_4=10, Kd_5=100, Kd_6=10
+Kc_1=10, Kc_2=1000, Kc_3=1
+fod_1=1000, fod_2=100000, fod_3=1000, fod_4=100000 fod_5=100000, fod_6=100000
+lam_u=1, lam_v=1000
+Ncri=1, CHI=0, Lac=0, IPTG=0
